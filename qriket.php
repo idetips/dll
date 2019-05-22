@@ -3,7 +3,7 @@
     <?php
     // script created by : will pratama - facebook.com/yaelahhwil - 18-05-2019
      
-    date_default_timezone_set("Asia/Jakarta");
+    date_default_timezone_set("America/Los_Angeles");
     $date = date("H:i:s Y-m-d");
     class qriket extends modules
     {

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Tutorial</title>
+
+<body>
+<style>
+.mystyle {background:gray}
+</style>
+
+
+<div id="post">Post 1</div>
+<div id="post">Post 1</div>
+<div id="post">Post 1</div>
+<div id="post">Post 1</div>
+
+
+
+<script>
+
+   
+var divs = document.querySelectorAll('#post');
+for (var i = 0; i < divs.length; i++) {
+    divs[i].classList.add('mystyle' + i);
+}
+</script>
+</body>
+</html> 
+
